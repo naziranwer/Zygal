@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 50px;
+  }
+  
+  .container {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .btn{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    background-color: skyblue;
+    cursor: pointer;
+  }
+  input{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .box {
+   
+    background-color: black;
+    position: absolute;
+  }
+  

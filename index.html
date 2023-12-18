@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diagonal Box Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    header {
+      position: fixed;
+      height: 50px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f0f0f0;
+      z-index: 1; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <input type="number" id="boxNumber" placeholder="Enter number of boxes">
+      <button class="btn" onclick="generateBoxes()">Generate</button> 
+    </div>
+  </header>
+
+  <div class="body"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
